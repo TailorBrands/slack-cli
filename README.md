@@ -16,7 +16,7 @@ metadata:
     pod.beta.kubernetes.io/init-containers: '[
         {
             "name": "init-myapp",
-            "image": "gmaliar/slack-cli",
+            "image": "TailorBrands/slack-cli",
             "command": ["slack-cli", "-c", "alerts", "-u", "slack-cli", "--webhook-url", "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 ", "myapp is running!"]
         }
