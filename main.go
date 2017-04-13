@@ -1,4 +1,4 @@
-package main // import "github.com/gmaliar/slack-cli"
+package main // import "github.com/TailorBrands/slack-cli"
 
 import (
 	"encoding/json"
