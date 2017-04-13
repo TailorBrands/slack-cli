@@ -1,7 +1,8 @@
 ### slack-cli
 
 A slack cli in a scratch container ready to send messages
-Mainly used as a way to send notifications from Kubernetes Init Containers
+
+Mainly used as a way to send notifications from ![Kubernetes Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)
 
 An example:
 ```yaml
